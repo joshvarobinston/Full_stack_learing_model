@@ -1,0 +1,71 @@
+/* Reset basic margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6DC3BB;
+    color: #000000;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header section */
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid #1f0ff8;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    background-color: #393D7E;
+}
+
+header img {
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #9b137d;
+}
+
+/* Sections */
+section {
+    background-color: #F6B1CE;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+section h2 {
+    margin-bottom: 10px;
+    color: #222222;
+    border-left: 4px solid #dd3bf6;
+    padding-left: 8px;
+}
+
+/* Sub-headings inside sections */
+section h3 {
+    margin-top: 10px;
+    margin-bottom: 6px;
+    color: #3f3f3f;
+}
+
+/* Lists */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 8px;
+}
+
+ul li {
+    margin-bottom: 4px;
+}
+
