@@ -10,3 +10,15 @@ p {
   margin: 0;
   padding: 0;
 }
+#outer-box{
+  border: 10px,solid rgba(126, 9, 176, 0.904);
+}
+
+
+.inner-box{
+  background-color: rgb(255, 2, 2);
+
+}
+.white-text{
+  color: white;
+}
